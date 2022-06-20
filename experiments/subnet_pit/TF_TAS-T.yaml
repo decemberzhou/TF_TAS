@@ -1,0 +1,38 @@
+SEARCH_SPACE:
+  PATCH_SIZE:
+    - 16
+  MLP_RATIO:
+    - 2
+    - 4
+    - 6
+    - 8
+  NUM_HEADS:
+    - 2
+    - 4
+    - 8
+  DEPTH:
+    - 1,2,3
+    - 4,6,8
+    - 2,4,6
+  BASE_DIM:
+    - 16
+    - 24
+    - 32
+    - 40
+RETRAIN:
+  PATCH_SIZE:
+    - 16
+  MLP_RATIO:
+    - 2
+  NUM_HEADS:
+    - 2
+    - 4
+    - 8
+  DEPTH:
+    - 2
+    - 4
+    - 4
+  BASE_DIM:
+    - 40
+    - 40
+    - 40
