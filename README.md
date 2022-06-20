@@ -2,10 +2,47 @@
 
 This project is used to update news related to our paper [***Training-free Transformer Architecture Search***](https://arxiv.org/pdf/2203.12217.pdf) (CVPR 2022).
 
-# Implementation
-Code will be released soon.
+## Getting Started
 
-# Citation
+### Prerequisites
+
+You will need [Python > 3](https://www.python.org/downloads) and the packages specified in _requirements.txt_.
+We recommend setting up a [virtual environment with pip](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+and installing the packages there.
+
+Install packages with:
+
+```
+$ pip install -r requirements.txt
+```
+
+### Data preparation
+The layout of Imagenet data:
+```bash
+/path/to/imagenet/
+  train/
+    class1/
+      img1.jpeg
+    class2/
+      img2.jpeg
+  val/
+    class1/
+      img1.jpeg
+    class2/
+      img2.jpeg
+``` 
+
+### Searching
+
+bash search_autoformer.sh
+
+### Retraining
+
+**Note that the subnet is specified in train_searched_result.sh with ----cfg './experiments/subnet_autoformer/TF_TAS-T.yaml'**
+
+bash train_searched_result.sh
+
+## Citation
 
 If you use our code for your paper, please cite:
 ```bibtex
@@ -23,3 +60,7 @@ If you use our code for your paper, please cite:
   year = 2022,
 }
 ```
+
+## Acknowledgement 
+
+ **This code is based on the implementation of  [AutoFormer]().**
