@@ -60,7 +60,3 @@ If you use our code for your paper, please cite:
   year = 2022,
 }
 ```
-
-<!-- ## Acknowledgement 
-
- **This code is based on the implementation of  [AutoFormer](https://github.com/microsoft/Cream/tree/main/AutoFormer).** -->
