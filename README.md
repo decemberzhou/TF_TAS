@@ -46,17 +46,11 @@ bash train_searched_result.sh
 
 If you use our code for your paper, please cite:
 ```bibtex
-@inproceedings{zhou2022tftas,
-  author = {Zhou, Qinqin and 
-            Sheng, Kekai and 
-            Zheng, Xiawu and
-            Li, Ke and 
-            Sun, Xing and 
-            Tian, Yonghong and 
-            Chen, Jie and
-            Ji, Rongrong},
-  title = {Training-free Transformer Architecture Search},
-  booktitle = {CVPR},
-  year = 2022,
+@inproceedings{zhou2022training,
+  title={Training-free Transformer Architecture Search},
+  author={Zhou, Qinqin and Sheng, Kekai and Zheng, Xiawu and Li, Ke and Sun, Xing and Tian, Yonghong and Chen, Jie and Ji, Rongrong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10894--10903},
+  year={2022}
 }
 ```
