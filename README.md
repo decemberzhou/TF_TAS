@@ -38,7 +38,7 @@ bash search_autoformer.sh
 
 ### Retraining
 
-**Note that the subnet is specified in train_searched_result.sh with ----cfg './experiments/subnet_autoformer/TF_TAS-T.yaml'**
+**Note that the subnet is specified in train_searched_result.sh with "--cfg" **
 
 bash train_searched_result.sh
 
